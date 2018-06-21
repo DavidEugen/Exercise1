@@ -76,9 +76,10 @@ ul, ol {
 }
 
 .header_sticky .header__logo{
-	width: 60px;
-	height: 42px;
+	width: 120px;
+	height: 90px;
 }
+
 
 .header_sticky .nav__list{
 	margin-bottom: 0;
@@ -100,13 +101,39 @@ ul, ol {
 	z-index: 50;
 }
 
+.header__down{
+	width: 121px;
+	max-width: 121px;
+	height: 120px;
+	float: right;
+	position: relative;
+	z-index: 50;
+}
+
 .logo__item{
 	display: block;
-	width: inherit;
-	height: inherit;
-	background-image: url(../images/logo.png);
+	width: 40%;
+	height: 40%;
+	background-image: url(/images/logo_Ro.png);
 	-webkit-background-size: cover;
 	        background-size: cover;
+}
+.logo_float_right{
+	display: block;
+	float:right;
+	width: 30%;
+	height: 30%;
+	-webkit-background-size: cover;
+	        background-size: cover;
+}
+.logo__down_apple{
+	
+	background-image: url(/images/small-icon-apple.png);
+}
+
+.logo__down_google{
+	margin-left: 7px;
+	background-image: url(/images/small-icon-google.png);
 }
 
 .btn_nav{
@@ -225,20 +252,20 @@ ul, ol {
 .slider__wrapper{
 	max-width: 1200px;
 	position: absolute;
-	bottom: 15%;
+	bottom: 5%;
 	z-index: 100;
 }
 
 .slider__item_1{
-	background-image: url(http://d1841mjet2hm8m.cloudfront.net/thumb-900/fb_1114/1620/81/3265f81f1cc933959eae0441751b9371.jpg);
+	background-image: url(/images/screen_1.jpg);
 }
 
 .slider__item_2{
-	background-image: url(http://d1841mjet2hm8m.cloudfront.net/thumb-900/fr_1099/1620/33/adff37890bd2bf63d4c3aa502b48a7c0.jpg);
+	background-image: url(/images/screen_2.jpg);
 }
 
 .slider__item_3{
-	background-image: url(http://d1841mjet2hm8m.cloudfront.net/thumb-900/fr_1202/1620/0/94c8d931a2dd4d07ab5dfca330344b4c.jpg);
+	background-image: url(/images/screen_3.jpg);
 }
 
 .item__text{

@@ -181,7 +181,7 @@ $('a').smoothScroll({
 	
 //	gallery magnific popup
 //	************************************
-		var magnificPopup = $.magnificPopup.instance;
+		var magnificPopup = $.magnificPopup.instance();
 
 		$('.gallery__items').magnificPopup({
 			delegate: '.item__hover__zoom',
