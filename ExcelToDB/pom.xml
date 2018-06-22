@@ -36,6 +36,15 @@
 	    <artifactId>spring-jdbc</artifactId>
 	    <version>5.0.6.RELEASE</version>
 	</dependency>
+  
+  	<!-- ibatis -->
+  	<dependency>
+	    <groupId>org.apache.ibatis</groupId>
+	    <artifactId>ibatis-sqlmap</artifactId>
+	    <version>2.3.4.726</version>
+	</dependency>
   </dependencies>
+  
+  
     
 </project>
